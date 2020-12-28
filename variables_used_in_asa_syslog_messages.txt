@@ -1,0 +1,120 @@
+Variable
+Description
+acl_ID
+An ACL name.
+bytes
+The number of bytes.
+code
+A decimal number returned by the syslog message to indicate the cause or source of the error, according to the syslog message generated.
+command
+A command name.
+command_modifier
+The command_modifier is one of the following strings:
+cmd (this string means the command has no modifier)
+clear
+no
+show
+connections
+The number of connections.
+connection_type
+The connection type:
+SIGNALLING UDP
+SIGNALLING TCP
+SUBSCRIBE UDP
+SUBSCRIBE TCP
+Via UDP
+Route
+RTP
+RTCP
+dec
+Decimal number.
+dest_address
+The destination address of a packet.
+dest_port
+The destination port number.
+device
+The memory storage device. For example, the floppy disk, internal flash memory, TFTP, the failover standby unit, or the console terminal.
+econns
+Number of embryonic connections.
+elimit
+Number of embryonic connections specified in the static or nat command.
+filename
+A filename of the type ASAimage, ASDM file, or configuration.
+ftp-server
+External FTP server name or IP address.
+gateway_address
+The network gateway IP address.
+global_address
+Global IP address, an address on a lower security level interface.
+global_port
+The global port number.
+hex
+Hexadecimal number.
+inside_address
+Inside (or local) IP address, an address on a higher security level interface.
+inside_port
+The inside port number.
+interface_name
+The name of the interface.
+IP_address
+IP address in the form n n n n , where n is an integer from 1 to 255.
+MAC_address
+The MAC address.
+mapped_address
+The translated IP address.
+mapped_port
+The translated port number.
+message_class
+Category of syslog message associated with a functional area of the ASA.
+message_list
+Name of a file you create containing a list of syslog message ID numbers, classes, or severity levels.
+message_number
+The syslog message ID.
+nconns
+Number of connections permitted for the static or xlate table.
+netmask
+The subnet mask.
+number
+A number. The exact form depends on the syslog message.
+octal
+Octal number.
+outside_address
+Outside (or foreign) IP address, an address of a syslog server typically on a lower security level interface in a network beyond the outside router.
+outside_port
+The outside port number.
+port
+The TCP or UDP port number.
+privilege_level
+The user privilege level.
+protocol
+The protocol of the packet, for example, ICMP, TCP, or UDP.
+real_address
+The real IP address, before NAT.
+real_port
+The real port number, before NAT.
+reason
+A text string describing the reason for the syslog message.
+service
+The service specified by the packet, for example, SNMP or Telnet.
+severity_level
+The severity level of a syslog message.
+source_address
+The source address of a packet.
+source_port
+The source port number.
+string
+Text string (for example, a username).
+tcp_flags
+Flags in the TCP header such as:
+ACK
+FIN
+PSH
+RST
+SYN
+URG
+time
+Duration, in the format hh mm ss
+url
+A URL.
+user
+A username.
